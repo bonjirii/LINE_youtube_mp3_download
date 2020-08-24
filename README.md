@@ -3,6 +3,7 @@
 
 
 ＊使い方＊</br>
+0，これはGASのプログラムです。</br>
 1，LINEからMessaging APIのアカウントを作成し、アクセストークンを取得し、下のCHANNEL_ACCESS_TOKENにコピペする。</br>
 2，↓のSAVE_FOLDER_NAMEの名前のフォルダをGoogleドライブ直下に作る。</br>
 3，URL:https://api.rakuten.net/Prasadbro/api/youtube-to-mp32/endpoints より、アカウントを作り、Youtube To Mp3を利用できるようにする。</br>
