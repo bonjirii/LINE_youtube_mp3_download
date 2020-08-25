@@ -119,7 +119,7 @@ function LINE_to_download(youtube_url, events){
     dougainfo_Json.Title = dougainfo_Json.Title.substr(0, 30) + '…';
   }
   
-  var mp3file_Name = dougainfo_Json.Download_Size + " " + dougainfo_Json.Title;
+  var mp3file_Name = dougainfo_Json.Download_Size + " " + dougainfo_Json.Title + ".mp3";
   var message = "\"Status\":" + dougainfo_Json.Status + "\n\"Status_Code\":" + dougainfo_Json.Status_Code + "\n\"Title\":" + dougainfo_Json.Title + "\n\"Download_Size\":" + dougainfo_Json.Download_Size + "\n\"Download_url\":" + dougainfo_Json.Download_url;
   SendMessage(events, message);
   
